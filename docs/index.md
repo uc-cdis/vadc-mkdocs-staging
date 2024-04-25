@@ -1,0 +1,5 @@
+# **VA Data Commons**  
+
+The VA Data Commons supports the research and analysis of US military Veteran medical and genomic data and aims to accelerate scientific discovery and development of therapies, diagnostic tests, and other technologies for improving the lives of Veterans and beyond. The data commons features GWAS analyses on harmonized data.  
+
+![VADC Logo](img/va-logo.png)
