@@ -39,7 +39,7 @@ theme:
 
 # Additional CSS
 extra_css:
-  - /stylesheets/extra.css
+  - ./stylesheets/extra.css
 
 use_directory_urls: true
 markdown_extensions:
