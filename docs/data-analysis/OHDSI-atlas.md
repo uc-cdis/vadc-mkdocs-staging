@@ -1,14 +1,14 @@
 # **OHDSI ATLAS**  
 
-[Observational Health Data Sciences and Informatics (or OHDSI](https://www.ohdsi.org/), pronounced "Odyssey", is a community developing open-source large-scale analytics solutions to bring out the value of health data. One such solution is ATLAS.  
+[Observational Health Data Sciences and Informatics](https://www.ohdsi.org/) (or OHDSI, pronounced "Odyssey"), is a community developing open-source large-scale analytics solutions to bring out the value of health data. One such solution is ATLAS.  
 
-ATLAS is an open-source software application intended to provide a unified interface to patient-level data and analytics. ATLAS software is used to define cohorts, typically dichotomous variables, for analysis.
+ATLAS is an open-source software application intended to provide a unified interface to patient-level data and analytics. ATLAS software is used to define cohorts, including dichotomous and continuous variables, for analysis.
 
-ATLAS currently includes functionality for searching and navigating the vocabulary within the [OMOP Common Data Model (CDM)](https://ohdsi.github.io/TheBookOfOhdsi/CommonDataModel). Users are encouraged to use the [MVP Data Dictionary](./data-dictionary.md) to help with comprehension and curation of custom sets. In addition to the search and navigation capabilities, ATLAS also provides features to curate and export custom sets of concept identifiers for use in cohort definitions. These will automatically populate on the Gen3 GWAS App.
+In general, ATLAS is an analytics platform that can be used to perform analyses across one or more observational databases which have been standardized to the OMOP Common Data Model V5 and can facilitate the exchange of analysis designs with any other organizations across the OHDSI community.
 
-In general, ATLAS is an analytics platform that can be used to perform analyses across one or more observational databases which have been standardized to the OMOP Common Data Model V5 and can facilitate exchange of analysis designs with any other organizations across the OHDSI community.
+ATLAS currently includes functionality for searching and navigating the vocabulary within the [OMOP Common Data Model (CDM)](https://ohdsi.github.io/TheBookOfOhdsi/CommonDataModel). Users are encouraged to use the [MVP Data Dictionary](./data-dictionary.md) to help with comprehension and curation of custom concept sets. In addition to the search and navigation capabilities, ATLAS also provides features to curate and export custom sets of concept identifiers for use in cohort definitions. Cohort definitions created by users will automatically populate on the Gen3 GWAS App.
 
-Tutorials for the ATLAS tool can be found **[here](https://github.com/OHDSI/Atlas/wiki)** and also in the **[link to the MVP data dictionary link](https://vincicentral.vinci.med.va.gov/SitePages/VINCI_University-VADC_Academy.aspx)** (*only accessible from the VA VPN*). The **[Book of OHDSI can be found here](https://ohdsi.github.io/TheBookOfOhdsi/)**. These resources contain a lot of useful information. For using the ATLAS app on this platform, you may find it particularly useful to read about **[Cohort Definition](https://ohdsi.github.io/TheBookOfOhdsi/Cohorts.html#Cohorts)**. It is highly advisable that you familiarize yourself with these resources before proceeding.
+Tutorials for the ATLAS tool can be found **[here](https://github.com/OHDSI/Atlas/wiki)** and also in the **[internal MVP documentation](https://vincicentral.vinci.med.va.gov/SitePages/VINCI_University-VADC_Academy.aspx)** (*only accessible from the VA VPN*). The **[Book of OHDSI can be found here](https://ohdsi.github.io/TheBookOfOhdsi/)**. These resources contain a lot of useful information. For using the ATLAS app on this platform, you may find it particularly useful to read about **[Cohort Definition](https://ohdsi.github.io/TheBookOfOhdsi/Cohorts.html#Cohorts)**. It is highly advisable that you familiarize yourself with these resources before proceeding.
 
 ## Launching the ATLAS app
 
@@ -75,7 +75,7 @@ To add new concepts, please use the “Add Concepts” button again as described
 
 #### To return to the list of concept sets
 
-While developing a concept set - whenever you click on the Concept Set menu button, it will automatically load your concept set under development. After you have saved your concept set, you will have more buttons up by the save button. Once of these is an X button (red arrow); when clicked, this will close your concept set and return you to the full list of concept sets.  
+While developing a concept set - whenever you click on the Concept Set menu button, it will automatically load your concept set under development. After you have saved your concept set, you will have more buttons up by the save button. One of these is an X button (red arrow); when clicked, this will close your concept set and return you to the full list of concept sets.  
 
 ![Click X to return to the list of concept sets](../img/concept-return-to-list.png)
 
@@ -83,7 +83,7 @@ While developing a concept set - whenever you click on the Concept Set menu butt
 
 A cohort is a set of persons who satisfy one or more inclusion criteria for a duration of time.
 
-Use the concept sets to create initial events and other criteria for defining the study population cohort. A cohort is defined as a Person with an entry and exit date. Thus, a person can be in a cohort multiple times if they meet the criteria.
+Use the concept sets to create initial events and other criteria for defining the study population cohort. A cohort is defined as a Person with an entry and exit date.
 
 To define a new cohort, click on “Cohort Definitions” (#11), then click the “New Cohort” button (#12).
 
@@ -93,7 +93,7 @@ This will open a New Cohort window that looks like this:
 
 ![New cohort window](../img/cohort-definition-window-new.png)
 
-Start by entering a name (#13) and description (#14) for the cohort. Then, establish the duration for your cohort by clicking Add Initial Event (#15), then select Add Observation (#16).
+Start by entering a name (#13) and description (#14) for the cohort. Then, establish the initial Entry Event criteria for your cohort by clicking Add Initial Event (#15), then select Add Observation (#16).
 
 ![](../img/cohort-add-init.png)
 
@@ -109,7 +109,7 @@ To access the table in the MVP harmonization database, click “+ Add attribute�
 
 ![](../img/cohort-add-attribute.png)
 
-Select “Greater or Equal To”. In this specific case we added Heart Failure concept set and entered value "2". Here, we are saying to include anyone who has any entry-criteria-events two or more times (e.g., experiences 2 or more heart failure events.) This will allow for the collection of data from the Observation table of the MVP harmonization database.
+Select “Greater or Equal To”. In this specific case, we added the Heart Failure concept set and entered the value "2". Here, we are saying to include anyone who has any entry-criteria-events two or more times (e.g., experiences 2 or more heart failure events.) This will allow for the collection of data from the Observation table of the MVP database.
 
 ![](../img/cohort-attrib-value.png)
 
@@ -117,17 +117,17 @@ If you only define entry event criteria, you will have the broadest cohort. If y
 
 #### To return to the list of cohorts
 
-While developing a cohort - whenever you click on the Cohort Definitions menu button, it will automatically load your cohort under development. After you have saved your cohort, you will have more buttons up by the save button. Once of these is an X button (red arrow); when clicked, this will close your cohort and return you to the full list of cohort definitions.  
+While developing a cohort - whenever you click on the Cohort Definitions menu button, it will automatically load your cohort under development. After you have saved your cohort, you will have more buttons up by the save button. One of these is an X button (red arrow); when clicked, this will close your cohort and return you to the full list of cohort definitions.  
 
 ![Click X to return to the list of cohorts](../img/cohort-return-to-list.png)
 
 ### **Step 3: Generate Cohort**
 
-Once generated, the cohort can then serve as the basis of inputs for your subsequent analyses (e.g., in the GWAS app). To complete the creation of the Cohort Definition, click the Generation tab (#24), then click Generate (#25). The status will be Pending while it is generating (red box).  
+Once generated, the cohort can then serve as the basis of inputs for your subsequent analyses (e.g., in the GWAS app). To complete the creation of the Cohort Definition, click the Generation tab (#24), then click Generate (#25). The status will be Pending while it is generating (red box), and will change to Complete once the cohort is generated.  
 
 ![](../img/cohort-generate.png)
 
-Cohort size will be displayed under the column “People” (red arrow). Use View Reports (red box) to see if you have inclusion criteria that causes cohort attrition. (If you did not define any additional inclusion criteria, the reports will show 0.)  
+Cohort size will be displayed under the column “People” (red arrow). Use View Reports (red box) to see if you have inclusion criteria that causes cohort attrition. If you did not define any additional inclusion criteria, the reports will show 0.  
 
 If you later change the criteria in the definition or the concept set, you can run Generate again to update your cohort definition for the new criteria.  
 
@@ -139,4 +139,4 @@ The “Export” tab provides a text version of how a cohort was created. Click 
 
 Use the cohort definition to identify how many people are in the cohort. This is the initial number that will be used in the GWAS App when this cohort is selected.
 
-We expect that this documentation along with the OHDSI tutorials are sufficient for most analyses that users will attempt. If you have any questions, please contact us at [vadc@lists.uchicago.edu](mailto:vadc@lists.uchicago.edu).
+We expect that this documentation along with the OHDSI tutorials are sufficient for most analyses that users will attempt. If you have any questions, please contact us at [vadc@lists.uchicago.edu](mailto:vadc@lists.uchicago.edu).  
