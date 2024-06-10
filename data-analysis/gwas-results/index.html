@@ -739,16 +739,16 @@
 
 
 <div><h1 id="gwas-results"><strong>GWAS Results</strong><a class="headerlink" href="#gwas-results" title="Permanent link">¶</a></h1>
-<p>This app is used to view your GWAS job status and results.  </p>
+<p>This app is used to view your team's job statuses and results.  </p>
 <h2 id="table-of-submitted-gwas-workflows"><strong>Table of Submitted GWAS Workflows</strong><a class="headerlink" href="#table-of-submitted-gwas-workflows" title="Permanent link">¶</a></h2>
-<p>The landing page displays a table of submitted jobs which includes the Run ID of your analysis, the Workflow name, Date/Time submitted, and Date/Time Finished. The table may be sorted by any column by clicking on the up or down arrows next to the column name. The "Manage columns" button in the upper right corner can be used to toggle the display of any column.</p>
+<p>The landing page displays a table of submitted jobs which includes the Run ID of team analyses, the Workflow name, Date/Time submitted, and Date/Time Finished. The table may be sorted by any column by clicking on the up or down arrows next to the column name. The "Manage columns" button in the upper right corner can be used to toggle the display of any column.</p>
 <p>Three additional columns are displayed by default: Job status, View Details, and Actions.  </p>
 <p>The <strong>View Details</strong> columns lists additional information about your submitted job. The Input button links to your GWAS job configuration options and the execution button presents information about the execution of your GWAS job including messages from log files.  </p>
 <p>The <strong>Job status</strong> column provides information about the execution status of your job.  The displayed values are:</p>
 <ul>
 <li><strong>Pending</strong> - Your analysis was placed in the queue to run. Depending on the length of the queue, your analysis could take from several minutes to several hours to start.  </li>
 <li><strong>In Progress</strong> - Your analysis has started and is running. Depending on your selection of cohort and variables, it could take from a half an hour to three hours to finish.  </li>
-<li><strong>Failed</strong> - Your analysis returned an error and could not run to completion. Please see <strong><a href="#troubleshooting-gwas-errors">Troubleshooting GWAS Errors</a></strong> below.   </li>
+<li><strong>Failed</strong> - Your analysis returned an error and could not run to completion. Please see <strong><a href="#troubleshooting-gwas-errors">Troubleshooting GWAS Errors</a></strong> below.  </li>
 <li><strong>Completed</strong> - Your analysis successfully completed, and you may download the results of the GWAS analysis from this menu.  </li>
 </ul>
 <p>The <strong>Actions</strong> column....</p>
@@ -764,7 +764,7 @@
 <li>a metadata file containing all of your selections (gwas_metadata.yaml)  </li>
 </ul>
 <h2 id="troubleshooting-gwas-errors"><strong>Troubleshooting GWAS Errors</strong><a class="headerlink" href="#troubleshooting-gwas-errors" title="Permanent link">¶</a></h2>
-<p>In the Results Viewer App, we are beginning to add meaningful error messages. The messages will appear in the execution logs. See this list of selected errors and how to interpret and resolve them:   </p>
+<p>In the Results Viewer App, we are beginning to add meaningful error messages. The messages will appear in the execution logs. See this list of selected errors and how to interpret and resolve them:  </p>
 <h3 id="failed-run-null-model-small-cohort-size-or-unbalanced-cohort-sizes"><strong>Failed run-null-model: Small cohort size or unbalanced cohort sizes</strong><a class="headerlink" href="#failed-run-null-model-small-cohort-size-or-unbalanced-cohort-sizes" title="Permanent link">¶</a></h3>
 <p>The selected cohort size did not produce enough statistical power. As a rule of thumb, for continuous workflows, a cohort size of about 700 or below may fail for this reason. If the user ran a dichotomous workflow, they should check that both the case and control cohort sizes are large enough, and are not vastly different in size (for example, by two orders of magnitude or more). This can be checked through the attrition table in the GWAS App prior to submission. The cohort size will show in the column where the chosen HARE is presented. A user may also see the choice they made in the GWAS Results by clicking on “Input”.</p>
 <h3 id="failed-run-plots-small-cohort-size-or-unbalanced-cohort-sizes"><strong>Failed run-plots: Small cohort size or unbalanced cohort sizes</strong><a class="headerlink" href="#failed-run-plots-small-cohort-size-or-unbalanced-cohort-sizes" title="Permanent link">¶</a></h3>
