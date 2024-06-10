@@ -39,7 +39,7 @@ You can see how to get to these tools using the left navigation menu.
 
 **Before you define a cohort, you must have a concept set that establishes the inclusion criteria for the cohort.**  
 
-While you are creating a new concept set and defining a new cohort, you may wish to refer to the Data Dictionary periodically. For convenience, we have added a button above the ATLAS window that will launch the Data Dictionary app in a new tab to facilitate switching between ATLAS and the Data Dictionary.   
+While you are creating a new concept set and defining a new cohort, you may wish to refer to the Data Dictionary periodically. For convenience, we have added a button above the ATLAS window that will launch the Data Dictionary app in a new tab to facilitate switching between ATLAS and the Data Dictionary.  
 
 ![Data Dictionary button on ATLAS window](../img/atlas-dd.png)
 
@@ -136,6 +136,8 @@ If you later change the criteria in the definition or the concept set, you can r
 The “Export” tab provides a text version of how a cohort was created. Click on the “Export” tab and then on the “Copy to clipboard” to copy the cohort’s information.
 
 ![](../img/cohort-export.png)
+
+Once created and saved, the cohort definition will be available to the user as well as to other members of the team in the Gen3 GWAS app.
 
 Use the cohort definition to identify how many people are in the cohort. This is the initial number that will be used in the GWAS App when this cohort is selected.
 
