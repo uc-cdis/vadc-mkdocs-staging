@@ -16,7 +16,7 @@ For more information about the web functionality of each step, please refer to t
 
 ### **Step 1: Select Study Population**
 
-In this step, you will determine the study population. To begin, select the cohort that you would like to define your study population with. You may only see cohorts that you have access to. You may only select one cohort. The size of the cohort population is indicated on the right-hand side of the table. To browse the table, please scroll down to the bottom. To search for a cohort by name you may use the search box.
+In this step, you will determine the study population. To begin, select the cohort that you would like to define your study population with. By default, the first cohort displayed is the "CATCH ALL," which is available to all projects. Subsequent cohorts are those created for your specific project. You may only see cohorts that you have access to. You may only select one cohort. The size of the cohort population is indicated on the right-hand side of the table. To browse the table, please scroll down to the bottom. To search for a cohort by name, you may use the search box.
 
 Once a cohort has been chosen, it will populate the attrition table above.
 
