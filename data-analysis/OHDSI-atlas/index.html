@@ -452,6 +452,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#teams-in-atlas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teams in ATLAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#generate-a-cohort" class="md-nav__link">
     <span class="md-ellipsis">
       Generate a Cohort
@@ -637,6 +646,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#teams-in-atlas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teams in ATLAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#generate-a-cohort" class="md-nav__link">
     <span class="md-ellipsis">
       Generate a Cohort
@@ -739,6 +757,18 @@
 <p><img alt="Sign-in popup" src="../../img/atlas-login-fence.png" style="height:150px"></p>
 <p>Once you have signed in to ATLAS, you will see the ATLAS home page. At the bottom of the home page is a button that will allow you to make the ATLAS tool full screen, which may make some searching and navigation easier.  </p>
 <p><img alt="ATLAS Home page" src="../../img/atlas-home.png"></p>
+<h2 id="teams-in-atlas"><strong>Teams in ATLAS</strong><a class="headerlink" href="#teams-in-atlas" title="Permanent link">¶</a></h2>
+<p>Team members will have access to all concept sets and cohorts for their team, as well as to global cohorts that are available to everyone. You can only access the items for your selected team or global items. Team members can edit any team members’ cohort. To create or access items for a different team of which you are a member, navigate back to the Apps page and select a different Team project by clicking the edit pencil icon next to your team name.</p>
+<p>Some examples of global cohorts include:</p>
+<ul>
+<li>Sex: Male</li>
+<li>Sex: Female</li>
+<li>smoking YES</li>
+<li>smoking NO</li>
+<li>All Genotyped MVP participants</li>
+</ul>
+<p>Other global cohorts may be added in the future. Global cohorts are available to all teams, but they are locked; they cannot be directly edited (they can only be changed by the admin team). However, you can make a copy of a global cohort by clicking the Copy icon (red box below) and edit the copy, which will then be available to your team. If you do not want to edit it, a global cohort can be used directly (you do not need to make a copy, in this case).  </p>
+<p><img alt="Copy icon for a saved cohort" src="../../img/cohort-copy.png">  </p>
 <h2 id="generate-a-cohort"><strong>Generate a Cohort</strong><a class="headerlink" href="#generate-a-cohort" title="Permanent link">¶</a></h2>
 <p>A cohort is a set of persons who satisfy one or more inclusion criteria for a duration of time. Once created, the cohort can then be the basis for inputs for your subsequent analyses (e.g., GWAS).  </p>
 <p>There are 3 tools to help you generate a cohort:</p>
@@ -779,27 +809,27 @@
 <p>This will open a New Cohort window that looks like this:</p>
 <p><img alt="New cohort window" src="../../img/cohort-definition-window-new.png"></p>
 <p>Start by entering a name (#13) and description (#14) for the cohort. Then, establish the initial Entry Event criteria for your cohort by clicking Add Initial Event (#15), then select Add Observation (#16).</p>
-<p><img alt="" src="../../img/cohort-add-init.png"></p>
+<p><img alt="Add initial event for your new cohort" src="../../img/cohort-add-init.png"></p>
 <p>Click Any Observation (#17), then select Import Concept Set (#18) from the dropdown menu.</p>
-<p><img alt="" src="../../img/cohort-anyobs.png" style="height:250px"></p>
+<p><img alt="Select Import Concept Set" src="../../img/cohort-anyobs.png" style="height:250px"></p>
 <p>Select the Concept Set you just made (#19). This establishes your Concept Set as basic inclusion criteria for your cohort.</p>
-<p><img alt="" src="../../img/cohort-selectconcept.png" style="height:200px"></p>
+<p><img alt="Select the concept set you created earlier" src="../../img/cohort-selectconcept.png" style="height:200px"></p>
 <p>To access the table in the MVP harmonization database, click “+ Add attribute…” (#20), then click “Add Value as Number Criteria” (#21).</p>
-<p><img alt="" src="../../img/cohort-add-attribute.png"></p>
+<p><img alt="Access table in harmonization database by adding value as number criteria" src="../../img/cohort-add-attribute.png"></p>
 <p>Select “Greater or Equal To”. In this specific case, we added the Heart Failure concept set and entered the value "2". Here, we are saying to include anyone who has any entry-criteria-events two or more times (e.g., experiences 2 or more heart failure events.) This will allow for the collection of data from the Observation table of the MVP database.</p>
-<p><img alt="" src="../../img/cohort-attrib-value.png"></p>
+<p><img alt="Set criteria around cohort entry event" src="../../img/cohort-attrib-value.png"></p>
 <p>If you only define entry event criteria, you will have the broadest cohort. If you want to further refine the cohort definition, you can add additional inclusion or exit criteria in the boxes below Cohort Entry Events. You can create separate concept sets to define these criteria. To complete the Cohort Definition, click the green Save icon in the top right corner.</p>
 <h4 id="to-return-to-the-list-of-cohorts">To return to the list of cohorts<a class="headerlink" href="#to-return-to-the-list-of-cohorts" title="Permanent link">¶</a></h4>
 <p>While developing a cohort - whenever you click on the Cohort Definitions menu button, it will automatically load your cohort under development. After you have saved your cohort, you will have more buttons up by the save button. One of these is an X button (red arrow); when clicked, this will close your cohort and return you to the full list of cohort definitions.  </p>
 <p><img alt="Click X to return to the list of cohorts" src="../../img/cohort-return-to-list.png"></p>
 <h3 id="step-3-generate-cohort"><strong>Step 3: Generate Cohort</strong><a class="headerlink" href="#step-3-generate-cohort" title="Permanent link">¶</a></h3>
 <p>Once generated, the cohort can then serve as the basis of inputs for your subsequent analyses (e.g., in the GWAS app). To complete the creation of the Cohort Definition, click the Generation tab (#24), then click Generate (#25). The status will be Pending while it is generating (red box), and will change to Complete once the cohort is generated.  </p>
-<p><img alt="" src="../../img/cohort-generate.png"></p>
+<p><img alt="Generation tab - generate cohort" src="../../img/cohort-generate.png"></p>
 <p>Cohort size will be displayed under the column “People” (red arrow). Use View Reports (red box) to see if you have inclusion criteria that causes cohort attrition. If you did not define any additional inclusion criteria, the reports will show 0.  </p>
 <p>If you later change the criteria in the definition or the concept set, you can run Generate again to update your cohort definition for the new criteria.  </p>
-<p><img alt="" src="../../img/cohort-after-generate.png"></p>
+<p><img alt="Generation tab - view reports" src="../../img/cohort-after-generate.png"></p>
 <p>The “Export” tab provides a text version of how a cohort was created. Click on the “Export” tab and then on the “Copy to clipboard” to copy the cohort’s information.</p>
-<p><img alt="" src="../img/cohort-export.png"></p>
+<p><img alt="Export cohort button" src="../../img/cohort-export.png"></p>
 <p>Once created and saved, the cohort definition will be available to the user as well as to other members of the team in the Gen3 GWAS app.</p>
 <p>Use the cohort definition to identify how many people are in the cohort. This is the initial number that will be used in the GWAS App when this cohort is selected.</p>
 <p>We expect that this documentation along with the OHDSI tutorials are sufficient for most analyses that users will attempt. If you have any questions, please contact us at <a href="mailto:vadc@lists.uchicago.edu">vadc@lists.uchicago.edu</a>.  </p></div>
