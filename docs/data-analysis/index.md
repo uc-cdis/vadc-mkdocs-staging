@@ -6,7 +6,9 @@ The [Apps page](https://va.data-commons.org/analysis) displays the option of fou
 
 ### **Teams**
 
-Navigating into Apps for the first time will result in a pop-up window requiring the user to select a "Team project". Once selected, the user will see the Team project name in the upper right of all Apps pages and will have access to all team cohorts, GWAS runs and results. Note that only the shared objects of the selected team are accessible. If there is a need to create or access items for a different team, you will need to navigate back to the Apps page and select a different Team project.
+Navigating into Apps for the first time will result in a pop-up window requiring the user to select a "Team project". Once selected, the user will see the Team project name in the upper right of all Apps pages. Team members will have access to all team concept sets, cohorts, GWAS runs and results. Note that you can only access the items for your selected team. To create or access items for a different team of which you are a member, navigate back to the Apps page and select a different Team project.
+
+If you are a member of more than one team, you can switch teams by clicking the edit pencil icon (red arrow below) next to your team name.
 
 ### Apps Links
 
