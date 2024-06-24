@@ -1,8 +1,6 @@
-# vadc-mkdocs
-VADC documentation in MkDocs format
+# vadc-mkdocs-staging
+the staging repo for VADC documentation in MkDocs format
 
-This repo is for the [MkDocs Material](https://squidfunk.github.io/mkdocs-material/getting-started/) version of the VADC documentation. This is currently live on the platform. (The legacy VADC documentation repo is [https://github.com/uc-cdis/va-doc](https://github.com/uc-cdis/va-doc))
+This repo is for staging the live VADC documentation (found at [https://github.com/uc-cdis/vadc-mkdocs](https://github.com/uc-cdis/vadc-mkdocs)). The GitHub Pages will be a separate link that can be shared for review, and then approved changes can be passed along to the original (live documentation) repo. 
 
-This repo provides the framework for using markdown-formatted documents and a mkdocs.yaml to create HTML using MkDocs Material. 
-
-The reason for converting the existing documentation to MkDocs is because it is MUCH easier to maintain and update, MkDocs Material is consistent with documentation formats for other Gen3 projects. It also produces documentation that has more aesthetic flexibility, and provides more built-in navigation for a better user experience.
+This uses [MkDocs Material](https://squidfunk.github.io/mkdocs-material/getting-started/) to create the documentation using markdown-formatted documents and a mkdocs.yaml to create HTML, and GitHub Pages to run it. 
