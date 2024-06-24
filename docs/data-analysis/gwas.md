@@ -8,7 +8,15 @@ The GWAS App includes several steps. To navigate between the steps, click the Ne
 
 Each step displays the Attrition table at the top of the page. The Attrition table contains information about the total population size and sample size by ancestry for your selected cohorts and variables.
 
-For more information about the web functionality of each step, please refer to the button “New to GWAS? Get started here”. This tool will offer highlighted explanations on different parts of the page.
+### **Virtual Tour**
+
+If you are unfamiliar with our GWAS app, you can preview the functionality of each step with our Virtual Tour. To access the Virtual Tour, please click to the button “New to GWAS? Get started here” just under the "Select Study Population" step header. This tool will walk you through the features and steps of the GWAS app, offer highlighted explanations for each.
+
+![New to GWAS? Get started here](../img/virtual-tour.png){: style="height:300px"}
+
+### **Teams in GWAS**
+
+Team members will have access to all team cohorts and to global cohorts. To create or access items for a different team of which you are a member, navigate back to the Apps page and select a different Team project by clicking the edit pencil icon next to your team name.  
 
 ## **GWAS Steps**
 
@@ -16,7 +24,7 @@ For more information about the web functionality of each step, please refer to t
 
 ### **Step 1: Select Study Population**
 
-In this step, you will determine the study population. To begin, select the cohort that you would like to define your study population with. You may only see cohorts that you have access to. You may only select one cohort. The size of the cohort population is indicated on the right-hand side of the table. To browse the table, please scroll down to the bottom. To search for a cohort by name you may use the search box.
+In this step, you will determine the study population. To begin, select the cohort that you would like to define your study population with. The cohorts you can see are all those available to your team: both global cohorts (available to everyone using apps in VADC) and team cohorts (available only to your team). You may only select one cohort. The size of the cohort population is indicated on the right-hand side of the table. To browse the table, please scroll down to the bottom. To search for a cohort by name, you may use the search box.
 
 Once a cohort has been chosen, it will populate the attrition table above.
 

@@ -24,6 +24,21 @@ Once you have signed in to ATLAS, you will see the ATLAS home page. At the botto
 
 ![ATLAS Home page](../img/atlas-home.png)
 
+## **Teams in ATLAS**
+
+Team members will have access to all concept sets and cohorts for their team, as well as to global cohorts that are available to everyone. You can only access the items for your selected team or global items. Team members can edit any team members’ cohort. To create or access items for a different team of which you are a member, navigate back to the Apps page and select a different Team project by clicking the edit pencil icon next to your team name.
+
+Some examples of global cohorts include:
+
+* Sex: Male
+* Sex: Female
+* smoking YES
+* smoking NO
+* All Genotyped MVP participants
+
+Other global cohorts may be added in the future. Global cohorts are available to all teams, but they are locked; they cannot be directly edited (they can only be changed by the admin team). However, you can make a copy of a global cohort by clicking the Copy icon (red box below) and edit the copy, which will then be available to your team. If you do not want to edit it, a global cohort can be used directly (you do not need to make a copy, in this case).  
+
+![Copy icon for a saved cohort](../img/cohort-copy.png)  
 
 ## **Generate a Cohort**
 
@@ -39,7 +54,7 @@ You can see how to get to these tools using the left navigation menu.
 
 **Before you define a cohort, you must have a concept set that establishes the inclusion criteria for the cohort.**  
 
-While you are creating a new concept set and defining a new cohort, you may wish to refer to the Data Dictionary periodically. For convenience, we have added a button above the ATLAS window that will launch the Data Dictionary app in a new tab to facilitate switching between ATLAS and the Data Dictionary.   
+While you are creating a new concept set and defining a new cohort, you may wish to refer to the Data Dictionary periodically. For convenience, we have added a button above the ATLAS window that will launch the Data Dictionary app in a new tab to facilitate switching between ATLAS and the Data Dictionary.  
 
 ![Data Dictionary button on ATLAS window](../img/atlas-dd.png)
 
@@ -95,23 +110,23 @@ This will open a New Cohort window that looks like this:
 
 Start by entering a name (#13) and description (#14) for the cohort. Then, establish the initial Entry Event criteria for your cohort by clicking Add Initial Event (#15), then select Add Observation (#16).
 
-![](../img/cohort-add-init.png)
+![Add initial event for your new cohort](../img/cohort-add-init.png)
 
 Click Any Observation (#17), then select Import Concept Set (#18) from the dropdown menu.
 
-![](../img/cohort-anyobs.png){: style="height:250px"}
+![Select Import Concept Set](../img/cohort-anyobs.png){: style="height:250px"}
 
 Select the Concept Set you just made (#19). This establishes your Concept Set as basic inclusion criteria for your cohort.
 
-![](../img/cohort-selectconcept.png){: style="height:200px"}
+![Select the concept set you created earlier](../img/cohort-selectconcept.png){: style="height:200px"}
 
 To access the table in the MVP harmonization database, click “+ Add attribute…” (#20), then click “Add Value as Number Criteria” (#21).
 
-![](../img/cohort-add-attribute.png)
+![Access table in harmonization database by adding value as number criteria](../img/cohort-add-attribute.png)
 
 Select “Greater or Equal To”. In this specific case, we added the Heart Failure concept set and entered the value "2". Here, we are saying to include anyone who has any entry-criteria-events two or more times (e.g., experiences 2 or more heart failure events.) This will allow for the collection of data from the Observation table of the MVP database.
 
-![](../img/cohort-attrib-value.png)
+![Set criteria around cohort entry event](../img/cohort-attrib-value.png)
 
 If you only define entry event criteria, you will have the broadest cohort. If you want to further refine the cohort definition, you can add additional inclusion or exit criteria in the boxes below Cohort Entry Events. You can create separate concept sets to define these criteria. To complete the Cohort Definition, click the green Save icon in the top right corner.
 
@@ -125,17 +140,19 @@ While developing a cohort - whenever you click on the Cohort Definitions menu bu
 
 Once generated, the cohort can then serve as the basis of inputs for your subsequent analyses (e.g., in the GWAS app). To complete the creation of the Cohort Definition, click the Generation tab (#24), then click Generate (#25). The status will be Pending while it is generating (red box), and will change to Complete once the cohort is generated.  
 
-![](../img/cohort-generate.png)
+![Generation tab - generate cohort](../img/cohort-generate.png)
 
 Cohort size will be displayed under the column “People” (red arrow). Use View Reports (red box) to see if you have inclusion criteria that causes cohort attrition. If you did not define any additional inclusion criteria, the reports will show 0.  
 
 If you later change the criteria in the definition or the concept set, you can run Generate again to update your cohort definition for the new criteria.  
 
-![](../img/cohort-after-generate.png)
+![Generation tab - view reports](../img/cohort-after-generate.png)
 
 The “Export” tab provides a text version of how a cohort was created. Click on the “Export” tab and then on the “Copy to clipboard” to copy the cohort’s information.
 
-![](../img/cohort-export.png)
+![Export cohort button](../img/cohort-export.png)
+
+Once created and saved, the cohort definition will be available to the user as well as to other members of the team in the Gen3 GWAS app.
 
 Use the cohort definition to identify how many people are in the cohort. This is the initial number that will be used in the GWAS App when this cohort is selected.
 
