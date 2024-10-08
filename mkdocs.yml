@@ -5,7 +5,7 @@ nav:
   - Return to VADC: https://va.data-commons.org/
   - Home: index.md
   - Getting Started: getting-started.md
-  - Data access and analysis: 
+  - Data access and analysis:
     - data-analysis/index.md
     - Data Dictionary App: data-analysis/data-dictionary.md
     - OHDSI ATLAS App: data-analysis/OHDSI-atlas.md
@@ -17,7 +17,7 @@ theme:
   favicon: img/va-favicon.ico
   logo: img/va-logo.png
   name: material
-  
+
   palette:
 
     # Palette toggle for light mode
@@ -25,14 +25,14 @@ theme:
       scheme: vadc_platform
       toggle:
         icon: material/eye
-        name: Switch to dark mode
+        name: Use a mouse-click or the up/down arrows to switch between light and dark mode. The site is currently in light mode.
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: vadc_platform_dark
       toggle:
         icon: material/eye-outline
-        name: Switch to light mode
+        name: Use a mouse-click or the up/down arrows to switch between light and dark mode. The site is currently in dark mode.
   features:
     - navigation.indexes
     - navigation.tracking
