@@ -33,7 +33,7 @@ The **Actions** column....
 
 ## **Troubleshooting GWAS Errors**  
 
-In the Results Viewer App, we are beginning to add meaningful error messages. The messages will appear in the execution logs. See this list of selected errors and how to interpret and resolve them:  
+In the Results Viewer App, we have been adding meaningful error messages. The messages will appear in the execution logs. Please see below a list of selected errors and how to interpret and resolve them.  
 
 ### **Failed run-null-model: Small cohort size or unbalanced cohort sizes**
 
