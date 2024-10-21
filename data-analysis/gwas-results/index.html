@@ -762,14 +762,18 @@
 <p>The landing page displays a table of submitted jobs which includes the Run ID of team analyses, the Workflow name, Date/Time submitted, and Date/Time Finished. The table may be sorted by any column by clicking on the up or down arrows next to the column name. The "Manage columns" button in the upper right corner can be used to toggle the display of any column.</p>
 <p>Three additional columns are displayed by default: Job status, View Details, and Actions.  </p>
 <p>The <strong>View Details</strong> columns lists additional information about your submitted job. The Input button links to your GWAS job configuration options and the execution button presents information about the execution of your GWAS job including messages from log files.  </p>
-<p>The <strong>Job status</strong> column provides information about the execution status of your job.  The displayed values are:</p>
+<p>The <strong>Job status</strong> column provides information about the execution status of your job. The displayed values are:</p>
 <ul>
 <li><strong>Pending</strong> - Your analysis was placed in the queue to run. Depending on the length of the queue, your analysis could take from several minutes to several hours to start.  </li>
 <li><strong>In Progress</strong> - Your analysis has started and is running. Depending on your selection of cohort and variables, it could take from a half an hour to three hours to finish.  </li>
 <li><strong>Failed</strong> - Your analysis returned an error and could not run to completion. Please see <strong><a href="#troubleshooting-gwas-errors">Troubleshooting GWAS Errors</a></strong> below.  </li>
 <li><strong>Completed</strong> - Your analysis successfully completed, and you may download the results of the GWAS analysis from this menu.  </li>
 </ul>
-<p>The <strong>Actions</strong> column....</p>
+<p>The <strong>Actions</strong> column includes the following values:</p>
+<ul>
+<li><strong>Download</strong> - Download allows you to download all the results from your successful workflow.  </li>
+<li><strong>Retry</strong> - Retry allows you to retry any failed workflow (see more in the <strong><a href="#troubleshooting-gwas-errors">Troubleshooting GWAS Errors</a></strong> section).  </li>
+</ul>
 <h2 id="gwas-results_1"><strong>GWAS Results</strong><a class="headerlink" href="#gwas-results_1" title="Permanent link">¶</a></h2>
 <p>Once your analysis is completed, you may review the output from your submission by clicking on the "Results" button in the details column. The results landing page includes an interactive Manhattan plot, viewable QQ plot, and a searchable table of the Top Loci.  The Manhattan plot may be downloaded separately as a png format fil, and the Top Loci table as a tsv file.  Clicking on the <em>Download All Results</em> button at the top of the results page will prompt the creation and download of your workflow results to your computer. Depending on your cohort and variables selection, the file size can vary from 700MB up to 1.3GB. The workflow results file contains the following:</p>
 <ul>
