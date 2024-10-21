@@ -10,14 +10,17 @@ Three additional columns are displayed by default: Job status, View Details, and
 
 The **View Details** columns lists additional information about your submitted job. The Input button links to your GWAS job configuration options and the execution button presents information about the execution of your GWAS job including messages from log files.  
 
-The **Job status** column provides information about the execution status of your job.  The displayed values are:
+The **Job status** column provides information about the execution status of your job. The displayed values are:
 
 * **Pending** - Your analysis was placed in the queue to run. Depending on the length of the queue, your analysis could take from several minutes to several hours to start.  
 * **In Progress** - Your analysis has started and is running. Depending on your selection of cohort and variables, it could take from a half an hour to three hours to finish.  
 * **Failed** - Your analysis returned an error and could not run to completion. Please see **[Troubleshooting GWAS Errors](#troubleshooting-gwas-errors)** below.  
 * **Completed** - Your analysis successfully completed, and you may download the results of the GWAS analysis from this menu.  
 
-The **Actions** column....
+The **Actions** column includes the following values:
+
+* **Download** - Download allows you to download all the results from your successful workflow.  
+* **Retry** - Retry allows you to retry any failed workflow (see more in the **[Troubleshooting GWAS Errors](#troubleshooting-gwas-errors)** section).  
 
 ## **GWAS Results**
 
