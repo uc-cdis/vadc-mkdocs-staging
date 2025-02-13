@@ -744,20 +744,20 @@
   
 
 
-<div><h1 id="ohdsi-atlas"><strong>OHDSI ATLAS</strong><a class="headerlink" href="#ohdsi-atlas" title="Permanent link">¶</a></h1>
+<div><h1 id="ohdsi-atlas"><strong>OHDSI ATLAS</strong></h1>
 <p><a href="https://www.ohdsi.org/">Observational Health Data Sciences and Informatics</a> (or OHDSI, pronounced "Odyssey"), is a community developing open-source large-scale analytics solutions to bring out the value of health data. One such solution is ATLAS.  </p>
 <p>ATLAS is an open-source software application intended to provide a unified interface to patient-level data and analytics. ATLAS software is used to define cohorts, including dichotomous and continuous variables, for analysis.</p>
 <p>In general, ATLAS is an analytics platform that can be used to perform analyses across one or more observational databases which have been standardized to the OMOP Common Data Model V5 and can facilitate the exchange of analysis designs with any other organizations across the OHDSI community.</p>
 <p>ATLAS currently includes functionality for searching and navigating the vocabulary within the <a href="https://ohdsi.github.io/TheBookOfOhdsi/CommonDataModel">OMOP Common Data Model (CDM)</a>. Users are encouraged to use the <a href="../data-dictionary/">MVP Data Dictionary</a> to help with comprehension and curation of custom concept sets. In addition to the search and navigation capabilities, ATLAS also provides features to curate and export custom sets of concept identifiers for use in cohort definitions. Cohort definitions created by users will automatically populate on the Gen3 GWAS App.</p>
 <p>Tutorials for the ATLAS tool can be found <strong><a href="https://github.com/OHDSI/Atlas/wiki">here</a></strong> and also in the <strong><a href="https://vincicentral.vinci.med.va.gov/SitePages/VINCI_University-VADC_Academy.aspx">internal MVP documentation</a></strong> (<em>only accessible from the VA VPN</em>). The <strong><a href="https://ohdsi.github.io/TheBookOfOhdsi/">Book of OHDSI can be found here</a></strong>. These resources contain a lot of useful information. For using the ATLAS app on this platform, you may find it particularly useful to read about <strong><a href="https://ohdsi.github.io/TheBookOfOhdsi/Cohorts.html#Cohorts">Cohort Definition</a></strong>. It is highly advisable that you familiarize yourself with these resources before proceeding.</p>
-<h2 id="launching-the-atlas-app">Launching the ATLAS app<a class="headerlink" href="#launching-the-atlas-app" title="Permanent link">¶</a></h2>
+<h2 id="launching-the-atlas-app">Launching the ATLAS app</h2>
 <p>From the Apps page, you can double-click the OHDSI Atlas tile to open the ATLAS app. When you first launch the app, it will display a message that the feature is protected, and ask you to log in. Although you are already logged in to the data commons, you must log in specifically to the ATLAS app to gain access to the feature. Click the "Sign In" link (red arrow in screenshot below) to log in to ATLAS.</p>
 <p><img alt="ATLAS login screen" src="../../img/atlas-login.png" style="height:250px"></p>
 <p>Clicking Sign In will open a popup that will ask you to sign in with Fence. Click the Fence button to finish the sign-in.  </p>
 <p><img alt="Sign-in popup" src="../../img/atlas-login-fence.png" style="height:150px"></p>
 <p>Once you have signed in to ATLAS, you will see the ATLAS home page. At the bottom of the home page is a button that will allow you to make the ATLAS tool full screen, which may make some searching and navigation easier.  </p>
 <p><img alt="ATLAS Home page" src="../../img/atlas-home.png"></p>
-<h2 id="teams-in-atlas"><strong>Teams in ATLAS</strong><a class="headerlink" href="#teams-in-atlas" title="Permanent link">¶</a></h2>
+<h2 id="teams-in-atlas"><strong>Teams in ATLAS</strong></h2>
 <p>Team members will have access to all concept sets and cohorts for their team, as well as to global cohorts that are available to everyone. You can only access the items for your selected team or global items. Team members can edit any team members’ cohort. To create or access items for a different team of which you are a member, navigate back to the Apps page and select a different Team project by clicking the edit pencil icon next to your team name.</p>
 <p>Some examples of global cohorts include:</p>
 <ul>
@@ -769,7 +769,7 @@
 </ul>
 <p>Other global cohorts may be added in the future. Global cohorts are available to all teams, but they are locked; they cannot be directly edited (they can only be changed by the admin team). However, you can make a copy of a global cohort by clicking the Copy icon (red box below) and edit the copy, which will then be available to your team. If you do not want to edit it, a global cohort can be used directly (you do not need to make a copy, in this case).  </p>
 <p><img alt="Copy icon for a saved cohort" src="../../img/cohort-copy.png">  </p>
-<h2 id="generate-a-cohort"><strong>Generate a Cohort</strong><a class="headerlink" href="#generate-a-cohort" title="Permanent link">¶</a></h2>
+<h2 id="generate-a-cohort"><strong>Generate a Cohort</strong></h2>
 <p>A cohort is a set of persons who satisfy one or more inclusion criteria for a duration of time. Once created, the cohort can then be the basis for inputs for your subsequent analyses (e.g., GWAS).  </p>
 <p>There are 3 tools to help you generate a cohort:</p>
 <ol>
@@ -781,7 +781,7 @@
 <p><strong>Before you define a cohort, you must have a concept set that establishes the inclusion criteria for the cohort.</strong>  </p>
 <p>While you are creating a new concept set and defining a new cohort, you may wish to refer to the Data Dictionary periodically. For convenience, we have added a button above the ATLAS window that will launch the Data Dictionary app in a new tab to facilitate switching between ATLAS and the Data Dictionary.  </p>
 <p><img alt="Data Dictionary button on ATLAS window" src="../../img/atlas-dd.png"></p>
-<h3 id="step-1-create-a-concept-set"><strong>Step 1: Create a Concept Set</strong><a class="headerlink" href="#step-1-create-a-concept-set" title="Permanent link">¶</a></h3>
+<h3 id="step-1-create-a-concept-set"><strong>Step 1: Create a Concept Set</strong></h3>
 <p>Concept Sets are a list of codes created by searching the standardized vocabulary and selecting the set of terms for your analyses. Here, you select all concepts (variables) that you would like to use for criteria that define your study population cohort.</p>
 <p>You can create a new concept set by selecting Concept Sets in the left menu (#1) and click the blue box for “New Concept Set” (#2).</p>
 <p><img alt="Screenshot to create a new concept set" src="../../img/concept-new-set.png"></p>
@@ -798,10 +798,10 @@
 <p>When all desired concepts are included in your Concept Set, click the Save icon to the right of the name of the Concept Set.</p>
 <p><img alt="Screenshot to save concept set" src="../../img/concept-save.png"></p>
 <p>To add new concepts, please use the “Add Concepts” button again as described above.</p>
-<h4 id="to-return-to-the-list-of-concept-sets">To return to the list of concept sets<a class="headerlink" href="#to-return-to-the-list-of-concept-sets" title="Permanent link">¶</a></h4>
+<h4 id="to-return-to-the-list-of-concept-sets">To return to the list of concept sets</h4>
 <p>While developing a concept set - whenever you click on the Concept Set menu button, it will automatically load your concept set under development. After you have saved your concept set, you will have more buttons up by the save button. One of these is an X button (red arrow); when clicked, this will close your concept set and return you to the full list of concept sets.  </p>
 <p><img alt="Click X to return to the list of concept sets" src="../../img/concept-return-to-list.png"></p>
-<h3 id="step-2-create-cohort-definition"><strong>Step 2: Create Cohort Definition</strong><a class="headerlink" href="#step-2-create-cohort-definition" title="Permanent link">¶</a></h3>
+<h3 id="step-2-create-cohort-definition"><strong>Step 2: Create Cohort Definition</strong></h3>
 <p>A cohort is a set of persons who satisfy one or more inclusion criteria for a duration of time.</p>
 <p>Use the concept sets to create initial events and other criteria for defining the study population cohort. A cohort is defined as a Person with an entry and exit date.</p>
 <p>To define a new cohort, click on “Cohort Definitions” (#11), then click the “New Cohort” button (#12).</p>
@@ -819,10 +819,10 @@
 <p>Select “Greater or Equal To”. In this specific case, we added the Heart Failure concept set and entered the value "2". Here, we are saying to include anyone who has any entry-criteria-events two or more times (e.g., experiences 2 or more heart failure events.) This will allow for the collection of data from the Observation table of the MVP database.</p>
 <p><img alt="Set criteria around cohort entry event" src="../../img/cohort-attrib-value.png"></p>
 <p>If you only define entry event criteria, you will have the broadest cohort. If you want to further refine the cohort definition, you can add additional inclusion or exit criteria in the boxes below Cohort Entry Events. You can create separate concept sets to define these criteria. To complete the Cohort Definition, click the green Save icon in the top right corner.</p>
-<h4 id="to-return-to-the-list-of-cohorts">To return to the list of cohorts<a class="headerlink" href="#to-return-to-the-list-of-cohorts" title="Permanent link">¶</a></h4>
+<h4 id="to-return-to-the-list-of-cohorts">To return to the list of cohorts</h4>
 <p>While developing a cohort - whenever you click on the Cohort Definitions menu button, it will automatically load your cohort under development. After you have saved your cohort, you will have more buttons up by the save button. One of these is an X button (red arrow); when clicked, this will close your cohort and return you to the full list of cohort definitions.  </p>
 <p><img alt="Click X to return to the list of cohorts" src="../../img/cohort-return-to-list.png"></p>
-<h3 id="step-3-generate-cohort"><strong>Step 3: Generate Cohort</strong><a class="headerlink" href="#step-3-generate-cohort" title="Permanent link">¶</a></h3>
+<h3 id="step-3-generate-cohort"><strong>Step 3: Generate Cohort</strong></h3>
 <p>Once generated, the cohort can then serve as the basis of inputs for your subsequent analyses (e.g., in the GWAS app). To complete the creation of the Cohort Definition, click the Generation tab (#24), then click Generate (#25). The status will be Pending while it is generating (red box), and will change to Complete once the cohort is generated.  </p>
 <p><img alt="Generation tab - generate cohort" src="../../img/cohort-generate.png"></p>
 <p>Cohort size will be displayed under the column “People” (red arrow). Use View Reports (red box) to see if you have inclusion criteria that causes cohort attrition. If you did not define any additional inclusion criteria, the reports will show 0.  </p>
