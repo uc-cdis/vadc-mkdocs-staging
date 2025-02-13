@@ -2,7 +2,7 @@
 
 ## **Where can I find more documentation on the OHDSI ATLAS app?**
 
-ATLAS was developed and is maintained by the OHDSI community. [Tutorials for the ATLAS tool can be found here](https://github.com/OHDSI/Atlas/wiki) and the [Book of OHDSI can be found here](https://ohdsi.github.io/TheBookOfOhdsi/). These resources contain a lot of useful information. You may find it particularly useful to [read about Cohort Definition](https://ohdsi.github.io/TheBookOfOhdsi/Cohorts.html#Cohorts). If you need help, please reach out to our help desk at [vadc@lists.uchicago.edu](mailto:vadc@lists.uchicago.edu)
+ATLAS was developed and is maintained by the OHDSI community. [Tutorials for the ATLAS tool can be found here](https://github.com/OHDSI/Atlas/wiki) and the [Book of OHDSI can be found here](https://ohdsi.github.io/TheBookOfOhdsi/). These resources contain a lot of useful information. You may find it particularly useful to [read about Cohort Definition](https://ohdsi.github.io/TheBookOfOhdsi/Cohorts.html#Cohorts). If you need help, please reach out to our help desk at [vadc-support@gen3.org](mailto:vadc-support@gen3.org)
 
 ## **What are harmonized variables?**
 
