@@ -64,8 +64,8 @@ Please read our [Data Update Disclaimer](#data-update-disclaimer) to understand 
 
 ### **Step failed with an uncategorized error**
 
-Workflows can fail for many different reasons, and some of them are transient. Please reach out to [vadc@lists.uchicago.edu](mailto:vadc@lists.uchicago.edu) with any further questions. In your message, please provide us with the serial name of your workflow and the step in which your GWAS failed (described in your error message). A response should be expected within 2 business days.  
+Workflows can fail for many different reasons, and some of them are transient. Please reach out to [vadc-support@gen3.org](mailto:vadc-support@gen3.org) with any further questions. In your message, please provide us with the serial name of your workflow and the step in which your GWAS failed (described in your error message). A response should be expected within 2 business days.  
 
 ## **Data Update Disclaimer**
 
-Please note that we are constantly improving the GWAS pipeline. The retry action will re-run your analysis based on the most recent data available in the database and the most recent GWAS pipeline implemented. These may differ from the analysis you ran initially, and these differences might affect the outcome. For these reasons, the retry action is only applicable to failed workflows. If you have any questions, please feel free to contact us via email [vadc@lists.uchicago.edu](mailto:vadc@lists.uchicago.edu).
+Please note that we are constantly improving the GWAS pipeline. The retry action will re-run your analysis based on the most recent data available in the database and the most recent GWAS pipeline implemented. These may differ from the analysis you ran initially, and these differences might affect the outcome. For these reasons, the retry action is only applicable to failed workflows. If you have any questions, please feel free to contact us via email [vadc-support@gen3.org](mailto:vadc-support@gen3.org).
