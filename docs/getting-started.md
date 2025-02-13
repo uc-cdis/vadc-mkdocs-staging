@@ -28,4 +28,4 @@ The button for VA Data Commons Documentation takes you to the home page for the 
 
 ### **Email Support**
 
-If you need help, the Email Support button allows you to send a message to our help desk at [vadc@lists.uchicago.edu](mailto:vadc@lists.uchicago.edu). You may expect a response within 2 business days.  
+If you need help, the Email Support button allows you to send a message to our help desk at [vadc-support@gen3.org](mailto:vadc-support@gen3.org). You may expect a response within 2 business days.  
