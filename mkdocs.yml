@@ -23,16 +23,16 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: vadc_platform
-      toggle:
-        icon: material/eye
-        name: Use a mouse-click or the up/down arrows to switch between light and dark mode. The site is currently in light mode.
+      #toggle:
+        #icon: material/eye
+        #name: Use a mouse-click or the up/down arrows to switch between light and dark mode. The site is currently in light mode.
 
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: vadc_platform_dark
-      toggle:
-        icon: material/eye-outline
-        name: Use a mouse-click or the up/down arrows to switch between light and dark mode. The site is currently in dark mode.
+    #- media: "(prefers-color-scheme: dark)"
+      #scheme: vadc_platform_dark
+      #toggle:
+        #icon: material/eye-outline
+        #name: Use a mouse-click or the up/down arrows to switch between light and dark mode. The site is currently in dark mode.
   features:
     - navigation.indexes
     - navigation.tracking
